@@ -80,3 +80,10 @@ uvicorn main:app --reload
 - Add formatting/linting with `black` and `ruff`
 - Add Docker support (`Dockerfile` + `docker-compose.yml`)
 - Add CI workflow for lint and test checks
+## Execution & How to Run
+ 
+To run the application locally using the Uvicorn webserver:
+ 
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
